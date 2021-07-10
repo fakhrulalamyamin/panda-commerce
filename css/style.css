@@ -1,5 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-     font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin-bottom: 80px;
+}
+
+.my-bg {
+  background-color: #fceae8;
+  border-radius: 5px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #333;
+}
+
+.carousel-item {
+  padding: 20px 40px;
+}
+
+.price, .my-btn {
+  margin-bottom: 10px;
+}
+
+.price {
+     color: #ff589b;
+}
+
+.my-btn {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
 }

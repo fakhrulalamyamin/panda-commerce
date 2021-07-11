@@ -60,3 +60,12 @@ body {
 .categories img {
   width: 120px;
 }
+
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+  border-top: none;
+}
